@@ -12,11 +12,6 @@ export default function Home() {
         <Inicio />
         <Sobre />
       </main>
-      <footer>
-        <div className="bg-black relative">
-          <h1>Fim</h1>
-        </div>
-      </footer>
     </div>
   );
 }
