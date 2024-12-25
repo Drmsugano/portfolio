@@ -14,7 +14,7 @@ function Inicio() {
                         </span>
                         .
                         <br className="hidden lg:inline-block" />
-                        Sou desenvolvedor{" "}
+                        Desenvolvedor{" "}
                         <span className="text-blue-400">Fullstack</span>.
                     </h1>
                     <p className="mb-8 leading-relaxed text-gray-300 text-lg">
