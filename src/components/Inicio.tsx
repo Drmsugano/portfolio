@@ -14,6 +14,7 @@ function Inicio() {
                         </span>
                         .
                         <br className="hidden lg:inline-block" />
+<br />
                         Desenvolvedor{" "}
                         <span className="text-blue-400">Fullstack</span>.
                     </h1>
