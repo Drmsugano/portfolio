@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import "tailwindcss/tailwind.css";
+import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
 
 function Sobre() {
   const tecnologias = [
@@ -28,7 +29,7 @@ function Sobre() {
   return (
     <section
       id="Sobre"
-      className="flex justify-center h-screen bg-gradient-to-b from-gray-800 to-gray-900 text-white"
+      className="flex justify-center h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white"
     >
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -40,9 +41,9 @@ function Sobre() {
             Sistemas no Instituto Federal do Paraná. Apaixonado por tecnologia e
             desenvolvimento de software, sempre buscando aprender novas
             habilidades e melhorar as existentes. Tenho experiência em
-            desenvolvimento web com front-end utilizando tecnologias
+            desenvolvimento web com frontend utilizando tecnologias
             como React, Next.js, HTML, CSS, Javascript, Bootstrap e Tailwind CSS. Além disso, possuo
-            conhecimentos em back-end com PHP e Laravel, e estou constantemente
+            conhecimentos em backend com PHP e Laravel, e estou constantemente
             explorando novas ferramentas e frameworks para expandir meu conjunto
             de habilidades.
           </p>
@@ -58,7 +59,7 @@ function Sobre() {
               onClick={prevSlide}
               className="absolute left-2 bg-gray-700 hover:bg-gray-600 p-3 rounded-full shadow-lg text-white z-10 focus:outline-none transition-all"
             >
-              &#8592;
+              <ChevronLeftIcon />
             </button>
             {/* Carrossel */}
            <div className="carousel-inner flex justify-center items-center w-full relative">
@@ -86,7 +87,7 @@ function Sobre() {
               onClick={nextSlide}
               className="absolute right-2 bg-gray-700 hover:bg-gray-600 p-3 rounded-full shadow-lg text-white z-10 focus:outline-none transition-all"
             >
-              &#8594;
+               <ChevronRightIcon />
             </button>
           </div>
           <br /><br /><br /><br />

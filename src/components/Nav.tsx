@@ -5,14 +5,14 @@ function Nav() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="text-white shadow-sm w-screen z-40 fixed">
+        <nav className="text-white shadow-sm w-svw z-40 fixed">
             <div className="backdrop-blur-sm">
                 <div className="py-3">
                     <div className="container mx-auto px-3">
                         <div className="flex justify-between items-center p-2">
                             {/* Logo */}
                             <h1 className="text-2xl font-serif tracking-wider font-semibold transition-all duration-300 hover:text-red-500">
-                                Portfólio
+                                Douglas Sugano
                             </h1>
 
                             {/* Botão do menu hambúrguer */}
@@ -64,7 +64,7 @@ function Nav() {
                                     Sobre
                                 </a>
                                 <a
-                                    href="#Projetos"
+                                    href="/Projetos"
                                     className="block md:inline-block font-semibold tracking-wider text-white transition-all duration-300 hover:text-red-500 ease-in-out"
                                 >
                                     Projetos
