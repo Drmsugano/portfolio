@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 "use client"
 import { useState } from "react";
 
@@ -52,13 +53,13 @@ function Nav() {
                                 } md:flex items-center space-x-4 outline outline-offset-2 outline-red-500 py-2 px-4 rounded-2xl drop-shadow-2xl`}
                             >
                                 <a
-                                    href="#Inicio"
+                                    href="/"
                                     className="block md:inline-block font-semibold tracking-wider text-white transition-all duration-300 hover:text-red-500 ease-in-out"
                                 >
                                     Inicio
                                 </a>
                                 <a
-                                    href="#Sobre"
+                                    href="/Sobre"
                                     className="block md:inline-block font-semibold tracking-wider text-white transition-all duration-300 hover:text-red-500 ease-in-out"
                                 >
                                     Sobre

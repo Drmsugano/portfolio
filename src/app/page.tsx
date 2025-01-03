@@ -1,6 +1,5 @@
 import Inicio from "@/components/Inicio";
 import Nav from "@/components/Nav";
-import Sobre from "@/components/Sobre";
 
 export default function Home() {
   return (
@@ -10,7 +9,6 @@ export default function Home() {
       </header>
       <main>
         <Inicio />
-        <Sobre />
       </main>
     </div>
   );

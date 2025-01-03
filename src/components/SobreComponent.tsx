@@ -5,7 +5,7 @@ import Image from "next/image";
 import "tailwindcss/tailwind.css";
 import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
 
-function Sobre() {
+function SobreComponente() {
   const tecnologias = [
     { src: "/images/php-logo.png", alt: "PHP" },
     { src: "/images/laravel-logo.png", alt: "Laravel" },
@@ -111,4 +111,4 @@ function Sobre() {
   );
 }
 
-export default Sobre;
+export default SobreComponente;
