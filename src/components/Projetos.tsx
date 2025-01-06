@@ -5,9 +5,6 @@ function Projeto() {
     const projetos = [
         { id: 1, img: 'images/java-logo.png', title: 'LP3', description: 'Repositório voltado para Projetos em Java (Puro e Hibernate)', link:'https://github.com/Drmsugano/LP3'},
         { id: 2, img: 'images/php-logo.png', title: 'Techweb-3', description: 'Repositório voltado para Projetos em PHP (Puro e Doctrine)', link:'https://github.com/Drmsugano/Techweb-3'},
-        { id: 3, img: 'images/php-logo.png', title: 'Techweb-3', description: 'Repositório voltado para Projetos em PHP (Puro e Doctrine)', link:'https://github.com/Drmsugano/Techweb-3'},
-        { id: 4, img: 'images/php-logo.png', title: 'Techweb-3', description: 'Repositório voltado para Projetos em PHP (Puro e Doctrine)', link:'https://github.com/Drmsugano/Techweb-3'}
-        
     ];
 
     return (
